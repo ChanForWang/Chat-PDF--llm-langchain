@@ -89,7 +89,7 @@ MultiPDF聊天应用程序是一款允许您与多个PDF文档聊天的Python应
 
 ## 工作原理
 -------
-![MultiPDF聊天应用图](./doc/pdf-LangChain.jpg)
+![MultiPDF Chat App Diagram](./doc/PDF-LangChain.jpg)
 
 应用程序遵循以下步骤为您的问题提供答复：
 
