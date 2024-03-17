@@ -48,7 +48,7 @@ css = '''
 }
 .stTextInput{
   position:fixed;
-  Bottom: 5px;
+  Bottom: 35px;
   z-index:9999;
 }
 
