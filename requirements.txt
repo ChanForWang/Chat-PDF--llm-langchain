@@ -1,0 +1,9 @@
+pypdf==4.1.0
+sentence-transformers==2.5.1  #for Multilingual text embeddings
+langchain==0.1.12
+langchain_community==0.0.28
+langchain_openai==0.0.8
+openai==1.14.1
+chromadb==0.4.24  #vector database
+PyPDF2==3.0.1
+zhipuai==1.0.7
