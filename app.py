@@ -89,16 +89,18 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
-    if os.getenv("ZhiPuAI_API_KEY"):
-        ZhiPuAI_API_KEY=os.getenv("ZhiPuAI_API_KEY")
-    else:
-        with st.sidebar:
-            ZhiPuAI_API_KEY=st.text_input("Input your ZhipuAI API Key!")
+    
 
     st.set_page_config(page_title="Chat with multiple PDFs",page_icon=":books:")
     st.header("Chat with multiple PDFs :books:")
     st.markdown(css, unsafe_allow_html=True)
     st.markdown(bot_template.replace("{{MSG}}", "Hi,What could I help you?"), unsafe_allow_html=True)
+
+    if os.getenv("ZhiPuAI_API_KEY"):
+        ZhiPuAI_API_KEY=os.getenv("ZhiPuAI_API_KEY")
+    else:
+        with st.sidebar:
+            ZhiPuAI_API_KEY=st.text_input("Input your ZhipuAI API Key!")
 
 
     #这段代码的目的是在Streamlit应用程序的会话状态（session state）中初始化两个键值对："conversation"和"chat_history"。这两个键值对用于存储对话链实例和对话历史记录。
