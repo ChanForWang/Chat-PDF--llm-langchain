@@ -8,3 +8,4 @@ chromadb==0.4.24  #vector database
 PyPDF2==3.0.1
 zhipuai==1.0.7
 streamlit
+pysqlite3-binary

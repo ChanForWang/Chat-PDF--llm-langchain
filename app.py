@@ -16,6 +16,9 @@ from langchain_community.chat_models import ChatZhipuAI
 #from zhipuai import ZhipuAI
 from dotenv import load_dotenv
 import os
+__import__("pysqlite3")
+import sys
+sys.modules['sqlite3']=sys.modules.pop('pysqlite3')
 
 def get_pdf_text(pdf_docs):
     text=""
