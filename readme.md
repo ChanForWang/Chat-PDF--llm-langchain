@@ -101,19 +101,19 @@ MultiPDF聊天应用程序是一款允许您与多个PDF文档聊天的Python应
 要安装MultiPDF聊天应用程序，请执行以下步骤：
 
 1.将存储库克隆到您的本地计算机。
-“``”
+```
 Git克隆https://github.com/ChanForWang/Chat-PDF--llm-langchain.git。
-“``”
+```
 
 2.通过运行以下命令安装所需的依赖项：
-“``”
-pip安装-r要求.txt。
-“``”
+```
+pip install -r requirements.txt。
+```
 
 3.从[ChatGLM](https://open.bigmodel.cn/usercenter/apikeys)获取接口密钥，添加到工程目录的`.env`文件中。
-`命令行。
+```commandline
 ZhiPuAI_API_KEY=您的SECRIT_API_KEY。
-“``”
+```
 
 ##使用方法。
 。
@@ -122,9 +122,9 @@ ZhiPuAI_API_KEY=您的SECRIT_API_KEY。
 1.确保安装了所需的依赖项，并将ChatGLM API密钥添加到`.env`文件中。
 
 2.使用Streamlight命令行工具运行`app.py`文件。执行以下命令：
-“``”
+```
 Streamlight Run app.py。
-“``”
+```
 
 3.应用程序将在您的默认Web浏览器中启动，显示用户界面。
 
