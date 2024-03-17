@@ -92,15 +92,15 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
-    
-
     st.set_page_config(page_title="Chat with multiple PDFs",page_icon=":books:")
     st.header("Chat with multiple PDFs :books:")
     st.markdown(css, unsafe_allow_html=True)
     st.markdown(bot_template.replace("{{MSG}}", "Hi,What could I help you?"), unsafe_allow_html=True)
 
     if os.getenv("ZhiPuAI_API_KEY"):
-        ZhiPuAI_API_KEY=os.getenv("ZhiPuAI_API_KEY")
+        
+        ZhiPuAI_API_KEY=os.getenv("ZhiPu_key")
+        #ZhiPuAI_API_KEY=os.getenv("ZhiPuAI_API_KEY")
     else:
         with st.sidebar:
             ZhiPuAI_API_KEY=st.text_input("Input your ZhipuAI API Key!")

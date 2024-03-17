@@ -7,6 +7,10 @@ Base on ChatGLM+Chromadb+Langchain+Streamlit to build a PDF chatbot!
 ------------
 The MultiPDF Chat App is a Python application that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
 
+## Give a try
+------------
+[Click Click ME](https://chat-pdf-glm.streamlit.app/) to have a try on this real-time PDF-Chatbot. 
+
 ## How It Works
 ------------
 
@@ -70,19 +74,22 @@ The MultiPDF Chat App is released under the [Apache-2.0 license](http://www.apac
 
 
 
-#多媒体PDF聊天应用。
-基于ChatGLM+Chromadb+Langchain+Streamlight构建一个PDF聊天机器人！
-(希望能介绍Word、Excel、Markdown、txt……，敬请关注！)。
+# 多媒体PDF聊天应用。
+
+基于ChatGLM+Chromadb+Langchain+Streamlight构建一个PDF聊天机器人！(希望能介绍Word、Excel、Markdown、txt……，敬请关注！)。
 
 
-##简介。
-。
+## 简介
+-------
 MultiPDF聊天应用程序是一款允许您与多个PDF文档聊天的Python应用程序。您可以使用自然语言询问有关PDF的问题，应用程序将根据文档内容提供相关回答。这款应用程序使用语言模型来生成对您的查询的准确答案。请注意，该应用程序只会回答与加载的PDF相关的问题。
 
-##工作原理。
-。
+## 浅尝一下
+------------
+[点我快点我](https://chat-pdf-glm.streamlit.app/)试试此实时PDF-chatbot！
 
-！[MultiPDF聊天应用图](./doc/pdf-LangChain.jpg)。
+## 工作原理
+-------
+![MultiPDF聊天应用图](./doc/pdf-LangChain.jpg)。
 
 应用程序遵循以下步骤为您的问题提供答复：
 
@@ -96,8 +103,8 @@ MultiPDF聊天应用程序是一款允许您与多个PDF文档聊天的Python应
 
 5.响应生成：将选择的组块传递给语言模型，语言模型根据PDF的相关内容生成响应。
 
-##依赖和安装。
-。
+## 依赖和安装
+-------
 要安装MultiPDF聊天应用程序，请执行以下步骤：
 
 1.将存储库克隆到您的本地计算机。
@@ -115,8 +122,8 @@ pip install -r requirements.txt。
 ZhiPuAI_API_KEY=您的SECRIT_API_KEY。
 ```
 
-##使用方法。
-。
+## 使用方法
+-------
 要使用MultiPDF聊天应用程序，请执行以下步骤：
 
 1.确保安装了所需的依赖项，并将ChatGLM API密钥添加到`.env`文件中。
@@ -132,10 +139,10 @@ Streamlight Run app.py。
 
 5.使用聊天界面用自然语言询问有关加载的PDF的问题。
 
-##贡献力量。
-。
+## 贡献力量
+-------
 此存储库旨在用于教育目的，并接受任何贡献。您可以根据自己的需求随意使用和增强该应用程序。
 
-##许可证。
-。
+## 许可证
+-------
 多媒体PDF聊天应用程序是在[APACHE-2.0许可](http://www.apache.org/licenses/)下发布的

@@ -61,7 +61,7 @@ bot_template = '''
 <div class=chat-container>
     <div class="chat-message bot">
         <div class="avatar">
-            <img src="https://i.ibb.co/crKR1Bw/robot-icon-chat-bot-sign-for-support-service-vector-26165300.jpg">
+            <img src="https://i.ibb.co/4jZ4YtH/chatbot.jpg">
         </div>
         <div class="message">{{MSG}}</div>
     </div>
